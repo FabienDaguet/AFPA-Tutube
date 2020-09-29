@@ -331,8 +331,7 @@
 
     .video-suggest {
         display: flex;
-        align-items: center;
-        width: 60%;
+        width: 50%;
     }
 
     .video-infos__avatar {
@@ -438,6 +437,7 @@
         .video-suggest {
             display: flex;
             width: calc(50% - 1rem);
+            max-width: 380px;
         }
 
         .suggest__arrow {
@@ -478,6 +478,10 @@
             padding-bottom: 0.5rem;
             margin-bottom: 0.5rem;
             border-bottom: 1px solid #b1acac;
+        }
+
+        .video-suggest {
+            max-width: 450px;
         }
 
         .video-infos__text--desktop {
