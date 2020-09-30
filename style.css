@@ -152,6 +152,10 @@
 
 /*ELEMENT*/
 
+    .more {
+        text-align: center;
+    }
+
     .logo-tutube {
         margin-left: 0.63rem;
 
